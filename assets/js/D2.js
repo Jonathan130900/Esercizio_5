@@ -224,16 +224,22 @@ console.log("----------------------------------");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("ESERCIZIO 11");
+console.log("ESERCIZIO 12");
 
 delete me.city;
 console.log(me);
+
+console.log("----------------------------------");
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 13");
+
+me.skills.pop();
+console.log(me.skills);
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
