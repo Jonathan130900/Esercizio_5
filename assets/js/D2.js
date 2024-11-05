@@ -12,7 +12,7 @@ if (number1 > number2) {
   console.log(number1 + " è maggiore di " + number2);
 } else {
   console.log("Assolutamente non corretto");
-};
+}
 
 console.log("----------------------------------");
 
@@ -28,7 +28,7 @@ var numberFive = 5;
 
 if (numberExample1 !== numberFive) {
   console.log("Not equal");
-};
+}
 
 console.log("----------------------------------");
 
@@ -43,8 +43,8 @@ var divisibleNumber = 50;
 var result = divisibleNumber % numberFive;
 
 if (result === 0) {
-  console.log("Divisibile per 5")
-};
+  console.log("Divisibile per 5");
+}
 
 console.log("----------------------------------");
 
@@ -59,8 +59,8 @@ var minusNumber = 15;
 var minusResult = minusNumber - number1;
 
 if (minusResult) {
-  console.log("Il risultato è " + minusResult)
-};
+  console.log("Il risultato è " + minusResult);
+}
 
 console.log("----------------------------------");
 
@@ -77,10 +77,15 @@ var totalShoppingCart = 50;
 var spedizione = 10;
 
 if (totalShoppingCart >= 50) {
-  console.log("Totale = " + totalShoppingCart + "€ " + "Spedizione gratuita!")
+  console.log("Totale = " + totalShoppingCart + "€ " + "Spedizione gratuita!");
 } else {
-  console.log("Totale = " + (totalShoppingCart + spedizione) + "€ " + "10 Euro di spedizione")
-};
+  console.log(
+    "Totale = " +
+      (totalShoppingCart + spedizione) +
+      "€ " +
+      "10 Euro di spedizione"
+  );
+}
 
 console.log("----------------------------------");
 
@@ -90,20 +95,30 @@ console.log("----------------------------------");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("ESERCIZIO 6")
+console.log("ESERCIZIO 6");
 
 var totalShoppingCart = 50;
 var spedizione = 10;
-var blackFriday = totalShoppingCart * 0.20;
+var blackFriday = totalShoppingCart * 0.2;
 var totalShoppingCartSconto = totalShoppingCart - blackFriday;
 
 console.log(totalShoppingCartSconto);
 
 if (totalShoppingCartSconto >= 50) {
-  console.log("Totale = " + totalShoppingCartSconto + "€ " + "Spedizione gratuita!")
+  console.log(
+    "Totale = " + totalShoppingCartSconto + "€ " + "Spedizione gratuita!"
+  );
 } else {
-  console.log("Totale = " + (totalShoppingCartSconto + spedizione) + "€ " + "10 Euro di spedizione")
-};
+  console.log(
+    "Totale = " +
+      (totalShoppingCartSconto + spedizione) +
+      "€ " +
+      "10 Euro di spedizione"
+  );
+}
+
+console.log("----------------------------------");
+
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
@@ -111,6 +126,17 @@ if (totalShoppingCartSconto >= 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 7");
+
+var numberOrder = [5, 7, 1];
+
+console.log("Numeri non in ordine " + numberOrder);
+
+numberOrder.sort(function (a, b) {
+  return a - b;
+});
+
+console.log("Numeri in ordine " + numberOrder);
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
@@ -143,10 +169,10 @@ if (totalShoppingCartSconto >= 50) {
 */
 
 const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
