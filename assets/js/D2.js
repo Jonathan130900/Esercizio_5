@@ -241,11 +241,21 @@ console.log("ESERCIZIO 13");
 me.skills.pop();
 console.log(me.skills);
 
+console.log("----------------------------------");
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 14");
+
+let numbers = []
+
+for (let i = 1; i <= 10; i++) {
+  numbers.push(i);
+}
+console.log(numbers);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
