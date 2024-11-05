@@ -213,16 +213,21 @@ const me = {
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("ESERCIZIO 11");
 
-me.city = "Toronto"
-
+console.log(me);
+me.city = "Toronto";
 console.log(me);
 
+console.log("----------------------------------");
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 11");
+
+delete me.city;
+console.log(me);
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
