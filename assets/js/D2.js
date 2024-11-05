@@ -3,7 +3,7 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log('ESERCIZIO 1');
+console.log("ESERCIZIO 1");
 
 var number1 = 7;
 var number2 = 3;
@@ -11,14 +11,24 @@ var number2 = 3;
 if (number1 > number2) {
   console.log(number1 + " è maggiore di " + number2);
 } else {
-  console.log('Assolutamente non corretto');
+  console.log("Assolutamente non corretto");
 };
+
+console.log("----------------------------------");
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 2");
+
+var numberExample1 = 9;
+var numberFive = 5;
+
+if (numberExample1 !== numberFive) {
+  console.log("Not equal");
+};
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
