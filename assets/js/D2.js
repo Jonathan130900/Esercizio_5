@@ -250,12 +250,14 @@ console.log("----------------------------------");
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("ESERCIZIO 14");
 
-let numbers = []
-
-for (let i = 1; i <= 10; i++) {
+let numbers = [];
+let i = 1;
+while (i <= 10) {
   numbers.push(i);
+  i++;
 }
 console.log(numbers);
+
 
 console.log("----------------------------------");
 
