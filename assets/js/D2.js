@@ -138,11 +138,22 @@ numberOrder.sort(function (a, b) {
 
 console.log("Numeri in ordine " + numberOrder);
 
+console.log("----------------------------------");
+
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 8");
+
+var typeVar = "9";
+
+if (typeof typeVar === "number") {
+  console.log("typeVar è un numero!")
+} else if (typeof typeVar === "string") {
+  console.log("typeVar è una stringa!")
+};
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
