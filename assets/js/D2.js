@@ -257,8 +257,15 @@ for (let i = 1; i <= 10; i++) {
 }
 console.log(numbers);
 
+console.log("----------------------------------");
+
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 15");
+
+numbers[numbers.length - 1] = 100;
+
+console.log(numbers);
