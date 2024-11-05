@@ -62,6 +62,8 @@ if (minusResult) {
   console.log("Il risultato è " + minusResult)
 };
 
+console.log("----------------------------------");
+
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
@@ -69,6 +71,16 @@ if (minusResult) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 5");
+
+var totalShoppingCart = 50;
+var spedizione = 10;
+
+if (totalShoppingCart >= 50) {
+  console.log("Totale = " + totalShoppingCart + "€ " + "Spedizione gratuita!")
+} else {
+  console.log("Totale = " + (totalShoppingCart + spedizione) + "€ " + "10 Euro di spedizione")
+};
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
