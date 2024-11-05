@@ -82,13 +82,28 @@ if (totalShoppingCart >= 50) {
   console.log("Totale = " + (totalShoppingCart + spedizione) + "€ " + "10 Euro di spedizione")
 };
 
+console.log("----------------------------------");
+
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 6")
 
+var totalShoppingCart = 50;
+var spedizione = 10;
+var blackFriday = totalShoppingCart * 0.20;
+var totalShoppingCartSconto = totalShoppingCart - blackFriday;
+
+console.log(totalShoppingCartSconto);
+
+if (totalShoppingCartSconto >= 50) {
+  console.log("Totale = " + totalShoppingCartSconto + "€ " + "Spedizione gratuita!")
+} else {
+  console.log("Totale = " + (totalShoppingCartSconto + spedizione) + "€ " + "10 Euro di spedizione")
+};
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
