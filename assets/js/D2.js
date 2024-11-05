@@ -46,11 +46,21 @@ if (result === 0) {
   console.log("Divisibile per 5")
 };
 
+console.log("----------------------------------");
+
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 4");
+
+var minusNumber = 15;
+var minusResult = minusNumber - number1;
+
+if (minusResult) {
+  console.log("Il risultato è " + minusResult)
+};
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
